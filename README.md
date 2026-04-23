@@ -17,7 +17,7 @@
 
 **📖 [Main guide](#what-this-guide-covers) · 🚀 [Starter kit](./starter/README.md) · 💬 [Prompts](./PROMPTS.md) · 📊 [Benchmarks](./BENCHMARKS.md) · 🤝 [Contribute](./CONTRIBUTING.md)**
 
-> 🎁 **New to Windsurf? Get $10 in free credits** with this referral link: **[windsurf.com/refer?referral_code=kowwopt506rq1907](https://windsurf.com/refer?referral_code=kowwopt506rq1907)** — you get $10, I get $10. The whole guide is free; this is the only ask.
+> Referral link (mutual Flex Credit bonus per [Windsurf's referral terms](https://windsurf.com/refer/terms-of-service); current amount published on [windsurf.com/refer](https://windsurf.com/refer)): [windsurf.com/refer?referral_code=kowwopt506rq1907](https://windsurf.com/refer?referral_code=kowwopt506rq1907)
 
 ---
 
