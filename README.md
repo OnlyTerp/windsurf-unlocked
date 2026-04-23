@@ -17,7 +17,7 @@
 
 **📖 [Main guide](#what-this-guide-covers) · 🚀 [Starter kit](./starter/README.md) · 💬 [Prompts](./PROMPTS.md) · 📊 [Benchmarks](./BENCHMARKS.md) · 🤝 [Contribute](./CONTRIBUTING.md)**
 
-> 🎁 **New to Windsurf? Get $10 in free credits** with this referral link: **[windsurf.com/refer?referral_code=kowwopt506rq1907](https://windsurf.com/refer?referral_code=kowwopt506rq1907)** — you get $10, I get $10. The whole guide is free; this is the only ask.
+> Referral link (mutual Flex Credit bonus per [Windsurf's referral terms](https://windsurf.com/refer/terms-of-service); current amount published on [windsurf.com/refer](https://windsurf.com/refer)): [windsurf.com/refer?referral_code=kowwopt506rq1907](https://windsurf.com/refer?referral_code=kowwopt506rq1907)
 
 ---
 
@@ -1950,12 +1950,12 @@ Every `fetch(` call gets rewritten with your pattern. Much cleaner than a regex 
 | **Claude Sonnet 4.6** | Medium | 2x / 3x | Complex logic, debugging, sharp refactors |
 | **Claude Opus 4.7** (base) | Medium | Promo (check picker) | **New Apr 16, 2026** — Anthropic's most capable GA model; 1M context, 128K output, high-res vision. Default Opus choice for agentic coding. |
 | **Claude Opus 4.7 Think (Low / Medium / High / MAX)** | Slow→Very slow | Tiered credits (high multiplier at MAX) | Explicit thinking-level picker — pick the deepest tier only for the hardest 5% of work. See [Power Move #0](#0-opus-47--thinking-levels-in-the-cascade-picker-apr-16-2026). |
-| **Kimi K2 / K2.5 / [K2.6](https://aitoolsrecap.com/Blog/moonshot-ai-kimi-k2-6-release-coding-agent-benchmarks-2026)** | Fast | **Free / low-credit promo** (check picker) | Open-weights frontier from Moonshot — [58.6% SWE-Bench Pro](https://aitoolsrecap.com/Blog/moonshot-ai-kimi-k2-6-release-coding-agent-benchmarks-2026) on K2.6, beats Opus 4.6 and GPT-5.4 on coding at roughly 5× cheaper list price ([$0.60 / $2.80](https://openrouter.ai/moonshotai/kimi-k2.6) vs Sonnet 4.6's [$3.00 / $15.00](https://pricepertoken.com/pricing-page/model/anthropic-claude-sonnet-4.6) per 1M input/output tokens). Windsurf has kept Kimi K2 in the picker [at low or zero credits](https://www.threads.com/@pahud/post/DMeZLopuyhb) since v1.11.1 (July 2025) and periodically runs [free-to-all promos](https://www.theblockbeats.info/flash/337382). Ideal swarm model — see [Power Move #15](#15-the-kimi-k2-free-swarm--6-parallel-agents-for-0). |
 | **Claude Opus 4.6 (Fast)** | ~2.5x Opus speed | 10x / 12x | Heavy-duty reasoning, architecture |
 | **Claude Opus 4.6** | Slow | 2x / 3x | Same intelligence as fast mode, cheaper, slower |
 | **Claude Opus 4.6 Think** | Slow | 8x | Prior-gen thinking Opus — still great; pin if you need stable behavior while 4.7 is new |
 | **Gemini 3.1 Pro** (Low/High Thinking) | Fast | 0.5x / 1x | Strong on structured tasks, multimodal |
 | **Gemini 3 Flash** | Very fast | — | Pro-grade reasoning at Flash speed |
+| **Kimi K2 / K2.5 / [K2.6](https://aitoolsrecap.com/Blog/moonshot-ai-kimi-k2-6-release-coding-agent-benchmarks-2026)** | Fast | **Free / low-credit promo** (check picker) | Open-weights frontier from Moonshot — [58.6% SWE-Bench Pro](https://aitoolsrecap.com/Blog/moonshot-ai-kimi-k2-6-release-coding-agent-benchmarks-2026) on K2.6, beats Opus 4.6 and GPT-5.4 on coding at roughly 5× cheaper list price ([$0.60 / $2.80](https://openrouter.ai/moonshotai/kimi-k2.6) vs Sonnet 4.6's [$3.00 / $15.00](https://pricepertoken.com/pricing-page/model/anthropic-claude-sonnet-4.6) per 1M input/output tokens). Windsurf has kept Kimi K2 in the picker [at low or zero credits](https://www.threads.com/@pahud/post/DMeZLopuyhb) since v1.11.1 (July 2025) and periodically runs [free-to-all promos](https://www.theblockbeats.info/flash/337382). Ideal swarm model — see [Power Move #15](#15-the-kimi-k2-free-swarm--6-parallel-agents-for-0). |
 | **GLM-5**, **Minimax M2.5** | Fast | 0.75x / 0.25x | Alternative frontier models for Arena comparison |
 
 Cascade's model picker now shows **per-model input / output / cache-read token rates inline** and a **prompt cache timer** in the context-window indicator. Use both to cost-optimize live.
