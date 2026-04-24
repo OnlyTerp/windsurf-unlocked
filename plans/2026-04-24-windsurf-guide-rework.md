@@ -28,9 +28,9 @@ Alternatives considered:
 - **Rewrite only intro/new-stuff sections:** fast but does not solve the overwhelm problem.
 
 ## Task Breakdown
-- [ ] 1. Draft a compact README outline with a clear “read this first” flow and source links.
-- [ ] 2. Replace stale/noisy README sections with terse audited content and keep the referral callout.
-- [ ] 3. Verify internal anchors and companion links resolve locally.
+- [x] 1. Draft a compact README outline with a clear “read this first” flow and source links.
+- [x] 2. Replace stale/noisy README sections with terse audited content and keep the referral callout.
+- [x] 3. Verify internal anchors and companion links resolve locally.
 - [ ] 4. Run a markdown/link sanity pass and secret scan before commit.
 - [ ] 5. Open PR using the repo template and check CI/preview status.
 
@@ -45,3 +45,4 @@ Revert the README and plan-file commit, restoring the prior guide exactly.
 ## Session Log
 - 2026-04-24 19:58 — wiki checked; no prior Windsurf-specific vault context.
 - 2026-04-24 20:01 — researched official docs, pricing, and changelog; plan drafted.
+- 2026-04-24 20:14 — README rewritten from 3,253 lines to 731 lines; local anchors verified.
