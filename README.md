@@ -199,7 +199,7 @@ Use Spaces for:
 
 ## 3. Devin in Windsurf — Cloud Delegation
 
-Source: [Windsurf 2.0 changelog](https://windsurf.com/changelog)
+Source: [Devin in Windsurf](https://docs.windsurf.com/windsurf/devin)
 
 Windsurf now exposes Devin Cloud directly in the IDE.
 
@@ -218,9 +218,9 @@ What it is not good for:
 
 Important caveats:
 
-- it is included with self-serve plans, but **billing still consumes quota and can add extra usage**
-- access was rolled out progressively; if you don’t see it, relogging may help
-- enterprise orgs may have it disabled by default
+- it is included with self-serve Pro, Max, and Teams plans, but **billing consumes shared quota and extra usage**
+- access is rolling out gradually; if you don’t see Devin Cloud, the docs say to log out and back in
+- Enterprise users should ask their admin for access
 
 Delegate when you want **parallelism**, not when you want **faster typing**.
 
@@ -325,6 +325,20 @@ Rules:
 
 Bad MCP setups create tool spam.
 Good MCP setups remove tab-switching.
+
+### Curated MCP list
+
+Additions to this list should follow [CONTRIBUTING.md](./CONTRIBUTING.md): maintained server, docs, Streamable HTTP or stdio preferred, usable without proprietary paid infra, and >30 days without known critical bugs.
+
+| Server | Use it for | Transport | Source |
+|---|---|---|---|
+| GitHub MCP | issues, PRs, repo automation | stdio or remote HTTP | [GitHub MCP server](https://github.com/github/github-mcp-server) |
+| Filesystem MCP | scoped local file access outside the workspace | stdio | [Model Context Protocol servers](https://github.com/modelcontextprotocol/servers) |
+| Memory MCP | small local knowledge graph | stdio | [Model Context Protocol servers](https://github.com/modelcontextprotocol/servers) |
+| PostgreSQL MCP | read-only database inspection | stdio | [Model Context Protocol servers](https://github.com/modelcontextprotocol/servers) |
+| Fetch MCP | fetch web content through an MCP tool | stdio | [Model Context Protocol servers](https://github.com/modelcontextprotocol/servers) |
+
+Keep the list short. If a server exposes too many tools, disable the ones you do not use so you stay under Cascade’s 100-tool limit.
 
 ---
 
