@@ -293,7 +293,7 @@ KILLSWITCH="${HOME}/.ralph-stop"
 for i in $(seq 1 $MAX_ITERS); do
   [ -f "$KILLSWITCH" ] && { echo "Killswitch tripped"; break; }
   pnpm test --silent && { echo "Green at iter $i"; exit 0; }
-  windsurf cascade "The test suite is red. Read the latest failures, fix the code (never the tests unless they're wrong), and stop. Don't try to validate — I'll run tests."
+  windsurf "The test suite is red. Read the latest failures, fix the code (never the tests unless they're wrong), and stop. Don't try to validate — I'll run tests."
 done
 ```
 

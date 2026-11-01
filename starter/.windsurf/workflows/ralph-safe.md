@@ -94,10 +94,9 @@ for i in $(seq 1 "$MAX_ITERS"); do
 
   # 4. Not green — hand the failure to Cascade and iterate
   FAILURE=$(tail -50 "$LOGDIR/check-$i.log")
-  windsurf cascade \
-    --mode=code \
-    --no-confirm-file-writes \
-    --prompt "Goal: $GOAL
+  # The windsurf CLI takes the prompt as its argument; there is no cascade
+  # subcommand, and extra words are opened as files instead of running.
+  windsurf "Goal: $GOAL
 
 The check command '$CHECK_CMD' is red. Latest output:
 
